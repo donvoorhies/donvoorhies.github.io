@@ -10,10 +10,17 @@
   main{width:1280px;max-width:100%;margin:0 auto}
   header{height:60px;line-height:60px}
   header h1{font-size:2em}
+ footer{height:30px;line-height:30px;text-align:center}
 </style>
 </header>
 <body>
 <main>
 <header><h1>donvoorhies.github.io<//h1></header>
 </main>
+<footer>donvoorhies.github.io-2019</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+/* jQuery Sticky-Footer (Compressed): https://css-tricks.com/snippets/jquery/jquery-sticky-footer/ */
+$(window).bind("load",function(){function a(){b=c.height();d=$(window).scrollTop()+$(window).height()-b+"px";$(document.body).height()+b<$(window).height()?c.css({position:"absolute"}).animate({top:d}):c.css({position:"static"})}var b=0,d=0,c=$("footer");a();$(window).scroll(a).resize(a)});	
+</script>
 </body>
