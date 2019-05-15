@@ -1,4 +1,3 @@
-# donvoorhies.github.io
 <html lang="en-US">
 <head>
   <title>donvoorhies.github.io</title>
