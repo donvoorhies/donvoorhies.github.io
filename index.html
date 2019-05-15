@@ -8,7 +8,7 @@
   *{margin:0}
   html,body{height:100%}
   main{width:1280px;max-width:100%;margin:0 auto;min-height:100%;height:auto !important;height:100%}
-  body{font:16px Arial,Sans-Serif,Serif}
+  body{font:16px 'Open Sans',Arial,Sans-Serif,Serif}
   header{height:60px;line-height:60px}
   header h1{font-size:2em}
   footer,.push{height:30px}
@@ -23,5 +23,7 @@
 </main>
 <footer>donvoorhies.github.io - 2019</footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
 <script>$(document).ready(function(){$(window).resize(function(){var a=$("footer").outerHeight();$("push").height(a);$("main").css({marginBottom:"-"+a+"px"})});$(window).resize()});</script>
+<script>WebFont.load({google:{families:['Open+Sans:400,700']}});</script>
 </body>
